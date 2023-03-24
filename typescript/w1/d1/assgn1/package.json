@@ -1,0 +1,20 @@
+{
+  "name": "assgn1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ts_1": "tsc src/1.ts",
+    "ts_2": "tsc src/2.ts",
+    "ts_3": "tsc src/3.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,50 @@
+class User {
+    id: number;
+    fullname: string;
+    age: number;
+
+    printDetails(): void {
+        console.log(this.fullname);
+    }
+
+    constructor(id: number, fullname: string, age: number) {
+        this.id = id;
+        this.fullname = fullname;
+        this.age = age;
+    }
+}
+
+// inheritance --> extends
+enum Gender {
+    Male = "male",
+    Female = "female",
+    Others = "others"
+}
+
+interface EmpDetails {
+    married: boolean;
+    gender: Gender;
+    hobbies: ["DSA" | "Coding" | "Cyber Security" | "Competetive Programming"];
+}
+
+class Employee extends User {
+    married: boolean;
+    gender: Gender;
+    hobbies: ["DSA" | "Coding" | "Cyber Security" | "Competetive Programming"];
+
+    constructor(empDetails: EmpDetails, id: number, fullname: string, age: number) {
+        super(id, fullname, age);
+        this.married = empDetails.married;
+        this.gender = empDetails.gender;
+        this.hobbies = empDetails.hobbies;
+    }
+}
+
+let empDetail: EmpDetails = {
+    gender: Gender.Male,
+    hobbies: ["DSA"],
+    married: false
+}
+
+let emp1 = new Employee(empDetail, 456, "Gyan Prakash", 24);
+console.log(emp1);

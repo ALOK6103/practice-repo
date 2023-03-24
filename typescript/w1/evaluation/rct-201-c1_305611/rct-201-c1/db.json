@@ -1,0 +1,84 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "India",
+      "capital": "Delhi"
+    },
+    {
+      "id": 2,
+      "name": "USA",
+      "capital": "Washington DC"
+    },
+    {
+      "id": 1675076361430,
+      "name": "",
+      "capital": ""
+    },
+    {
+      "id": 1675076664777,
+      "name": "uk",
+      "capital": "london"
+    },
+    {
+      "id": 1675076706031,
+      "name": "AFG",
+      "capital": "kabul"
+    },
+    {
+      "id": 1675076871446,
+      "name": "Pak",
+      "capital": "isl"
+    },
+    {
+      "id": 1675080557175,
+      "name": "nep",
+      "capital": "kad"
+    },
+    {
+      "id": 1675080630150,
+      "name": "Adgbh",
+      "capital": "jghgh"
+    },
+    {
+      "id": 1675080737398,
+      "name": "asfdf",
+      "capital": "lklk"
+    },
+    {
+      "id": 1675080791999,
+      "name": "asads",
+      "capital": "jhjh"
+    },
+    {
+      "id": 1675080989052,
+      "name": "hghgh",
+      "capital": "yiuu"
+    },
+    {
+      "id": 1675081261786,
+      "name": "Bhutan",
+      "capital": "thimpu"
+    },
+    {
+      "id": 1675081623749,
+      "name": "hkj",
+      "capital": "lop"
+    },
+    {
+      "id": 1675083904440,
+      "name": "nz",
+      "capital": "hj"
+    },
+    {
+      "id": 1675084122887,
+      "name": "hi",
+      "capital": "io"
+    },
+    {
+      "id": 1675084137311,
+      "name": "ui",
+      "capital": "lo"
+    }
+  ]
+}
